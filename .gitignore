@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.Rproj.user
+
+
+# Added by cargo
+
+/target
+node_modules
+.DS_Store
+points
+data

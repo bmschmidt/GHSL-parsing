@@ -1,0 +1,16 @@
+[package]
+name = "ghsl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gdal = { version = "0.17" }
+geoarrow = { version = "0.4.0-beta.1" }
+arrow = { version = "53", features = ["ipc"] }
+geo-types = "0.7"
+rand = "0.8"
+rand_pcg = "0.3"
+parquet = "53.2.0"
+rayon = "1.6"  # Or the latest version
+anyhow = "1.0"  # Or latest version
+
